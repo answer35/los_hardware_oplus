@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.powershare@1.0-service.oplus"
+#define LOG_TAG "vendor.aospa.powershare@1.0-service.oplus"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -25,8 +25,8 @@ using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 using android::sp;
 
-using vendor::lineage::powershare::V1_0::IPowerShare;
-using vendor::lineage::powershare::V1_0::implementation::PowerShare;
+using vendor::aospa::powershare::V1_0::IPowerShare;
+using vendor::aospa::powershare::V1_0::implementation::PowerShare;
 
 int main() {
     sp<IPowerShare> powerShareService = new PowerShare();

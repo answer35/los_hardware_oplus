@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#ifndef VENDOR_AOSPA_POWERSHARE_V1_0_POWERSHARE_H
+#define VENDOR_AOSPA_POWERSHARE_V1_0_POWERSHARE_H
 
-#pragma once
-
-#include <vendor/lineage/powershare/1.0/IPowerShare.h>
+#include <vendor/aospa/powershare/1.0/IPowerShare.h>
 
 namespace vendor {
-namespace lineage {
+namespace aospa {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -39,5 +39,7 @@ class PowerShare : public IPowerShare {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace lineage
+}  // namespace aospa
 }  // namespace vendor
+
+#endif  // VENDOR_AOSPA_POWERSHARE_V1_0_POWERSHARE_H

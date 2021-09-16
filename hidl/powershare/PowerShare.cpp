@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.powershare@1.0-service.oplus"
+#define LOG_TAG "vendor.aospa.powershare@1.0-service.oplus"
 
 #include "PowerShare.h"
 
@@ -30,7 +30,7 @@ constexpr const char* kWirelessTxEnablePath = "/proc/wireless/enable_tx";
 }  // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace aospa {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -55,5 +55,5 @@ Return<uint32_t> PowerShare::setMinBattery(uint32_t /*minBattery*/) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace lineage
+}  // namespace aospa
 }  // namespace vendor
