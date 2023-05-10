@@ -2,9 +2,9 @@ Common_CFlags = ["-Wall"]
 Common_CFlags += ["-Werror"]
 
 soong_config_module_type {
-    name: "oplus_lineage_vibrator_hal_cc_defaults",
+    name: "oplus_aospa_vibrator_hal_cc_defaults",
     module_type: "cc_defaults",
-    config_namespace: "OPLUS_LINEAGE_VIBRATOR_HAL",
+    config_namespace: "OPLUS_AOSPA_VIBRATOR_HAL",
     value_variables: ["INCLUDE_DIR"],
     bool_variables: ["USE_EFFECT_STREAM"],
     properties: [
@@ -14,7 +14,7 @@ soong_config_module_type {
     ],
 }
 
-oplus_lineage_vibrator_hal_cc_defaults {
+oplus_aospa_vibrator_hal_cc_defaults {
     name: "vibrator_effect_stream_defaults",
     soong_config_variables: {
         USE_EFFECT_STREAM: {
@@ -24,8 +24,8 @@ oplus_lineage_vibrator_hal_cc_defaults {
     },
 }
 
-oplus_lineage_vibrator_hal_cc_defaults {
-    name: "oplus_lineage_vibrator_effect_defaults",
+oplus_aospa_vibrator_hal_cc_defaults {
+    name: "oplus_aospa_vibrator_effect_defaults",
     soong_config_variables: {
         INCLUDE_DIR: {
             include_dirs: ["%s"],
