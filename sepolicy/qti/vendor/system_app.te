@@ -15,3 +15,7 @@ rw_dir_file(system_app, sysfs_vibrator)
 
 # Zram
 r_dir_file(system_app, sysfs_zram)
+
+# DeviceExtras
+rw_dir_file(system_app, sysfs_sync)
+rw_dir_file(system_app, sysfs_workqueue)
