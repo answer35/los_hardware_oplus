@@ -21,7 +21,10 @@ persist.camera.                                       u:object_r:exported_system
 persist.sys.camera.                                   u:object_r:exported_system_prop:s0
 persist.sys.state.                                    u:object_r:exported_system_prop:s0
 persist.vendor.aps.debug.framenum                     u:object_r:exported_system_prop:s0
+persist.vendor.apsSN.algo.enable                      u:object_r:exported_system_prop:s0
 persist.vendor.arcsoft.sn.dumprawinfo                 u:object_r:exported_system_prop:s0
+persist.vendor.facebeauty.dump                        u:object_r:exported_system_prop:s0
+persist.vendor.supernight.dump                        u:object_r:exported_system_prop:s0
 persist.vendor.oplus.rawhdr.dump                      u:object_r:exported_system_prop:s0
 persist.vendor.fastrpc.                               u:object_r:exported_system_prop:s0
 ro.camera.res.                                        u:object_r:exported_system_prop:s0
@@ -35,11 +38,13 @@ sys.oplus.                                            u:object_r:exported_system
 sys.oppo_ftm_mode                                     u:object_r:exported_system_prop:s0
 vendor.aps.                                           u:object_r:exported_system_prop:s0
 vendor.arcsoft.                                       u:object_r:exported_system_prop:s0
+vendor.boot.project_name                              u:object_r:exported_system_prop:s0
 vendor.camera.                                        u:object_r:exported_system_prop:s0
 vendor.debug.is.rioapk                                u:object_r:exported_system_prop:s0
 vendor.debug.magnet.enable                            u:object_r:exported_system_prop:s0
 vendor.oplus.                                         u:object_r:exported_system_prop:s0
 vendor.oppo.                                          u:object_r:exported_system_prop:s0
+vendor.runtime.fastcv.log                             u:object_r:exported_system_prop:s0
 vendor.property.debug.caliexif.enable                 u:object_r:exported_system_prop:s0
 
 # Display
@@ -57,6 +62,7 @@ oplus.optical.        u:object_r:system_fingerprint_prop:s0
 persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
 # Logging
+persist.al.cfr.loglevel             u:object_r:exported_system_prop:s0
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
 persist.sys.debuglog.               u:object_r:exported_system_prop:s0
 persist.sys.log.                    u:object_r:exported_system_prop:s0
